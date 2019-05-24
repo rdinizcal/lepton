@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblepton.a  CMakeFiles/lepton.dir/src/CompiledExpression.cpp.o CMakeFiles/lepton.dir/src/ExpressionProgram.cpp.o CMakeFiles/lepton.dir/src/ExpressionTreeNode.cpp.o CMakeFiles/lepton.dir/src/Operation.cpp.o CMakeFiles/lepton.dir/src/ParsedExpression.cpp.o CMakeFiles/lepton.dir/src/Parser.cpp.o
+/usr/bin/ranlib liblepton.a
