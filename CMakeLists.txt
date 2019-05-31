@@ -12,6 +12,12 @@ SET (CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake.Modules" ${CMAKE_MODUL
 SET (CMAKE_MODULE_PATH "${CMAKE_INSTALL_PREFIX}/share/cmake-${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}/Modules" ${CMAKE_MODULE_PATH})
 
 ###########################################################################
+# Include flags for compiling.
+INCLUDE (${CMAKE_CURRENT_SOURCE_DIR}/cmake.Modules/CompileFlags.cmake)
+# Set compilation flags
+SET (CMAKE_CXX_FLAGS "-Wall ${CMAKE_CXX_FLAGS}")
+
+###########################################################################
 # Set include directory.
 INCLUDE_DIRECTORIES(include)
 
